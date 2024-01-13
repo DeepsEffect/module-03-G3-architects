@@ -245,6 +245,33 @@ main {
     .hide {
         display: none;
     }
+    .features{
+        flex-direction: column;
+    }
+    .features .features-img{
+        position: static;
+        margin: 0 auto;
+        width: 90%;
+    }
+    .features .features-img img{
+        width: 100%;
+        
+    }
+    .features .features-btn{
+        padding: 20px 10px;
+        font-size: 1.5rem;
+        font-weight: 600;
+        border: none;
+        position: relative;
+        left: 8px;
+
+    }
+    .features .features-text-description p {
+        width: 96%;
+        margin: 0 auto;
+        text-align: left;
+    }
+  
 }
 
 /* tablet */
@@ -261,7 +288,7 @@ main {
     .banner-img img {
         width: 100%;
     }
-
+    
     .teams {
         flex-direction: column;
     }
@@ -276,4 +303,30 @@ main {
         padding: 0;
 
     }
+    .features{
+        flex-direction: column;
+    }
+    .features .features-img{
+        position: static;
+        margin: 0 auto;
+        width: 90%;
+    }
+    .features .features-img img{
+        width: 100%;
+        
+    }
+    .features .features-btn{
+        padding: 20px 10px;
+        font-size: 1.5rem;
+        font-weight: 600;
+        border: none;
+        position: relative;
+        left: 8px;
+
+    }
+    .features .features-text-description p {
+        width: 96%;
+        margin: 0 auto;
+    }
+  
 }
