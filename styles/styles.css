@@ -144,7 +144,8 @@ main {
     display: flex;
     margin-top: 150px;
 }
-.features-texts .features-text-title{
+
+.features-texts .features-text-title {
     border-left: 5px solid #FF900E;
     padding-left: 20px;
     margin-bottom: 24px;
@@ -178,7 +179,8 @@ main {
     position: relative;
     top: -50px;
 }
-.features .features-btn{
+
+.features .features-btn {
     text-align: center;
     padding: 50px 20px;
     font-size: 2rem;
@@ -193,7 +195,30 @@ main {
     border: 8px solid white;
 }
 
+/* some facts section style */
+.some-facts-description p {
+    width: 40%;
+    font-size: 1rem;
+}
 
+.some-facts-cards {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 50px;
+}
+
+.some-facts-cards * {
+    padding: 5px 0;
+}
+
+.some-facts-cards p {
+    color:  #727272;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+/* sponsors section styles */
 
 
 /* media query */
@@ -245,19 +270,23 @@ main {
     .hide {
         display: none;
     }
-    .features{
+
+    .features {
         flex-direction: column;
     }
-    .features .features-img{
+
+    .features .features-img {
         position: static;
         margin: 0 auto;
         width: 90%;
     }
-    .features .features-img img{
+
+    .features .features-img img {
         width: 100%;
-        
+
     }
-    .features .features-btn{
+
+    .features .features-btn {
         padding: 20px 10px;
         font-size: 1.5rem;
         font-weight: 600;
@@ -266,12 +295,13 @@ main {
         left: 8px;
 
     }
+
     .features .features-text-description p {
         width: 96%;
         margin: 0 auto;
         text-align: left;
     }
-  
+
 }
 
 /* tablet */
@@ -288,7 +318,7 @@ main {
     .banner-img img {
         width: 100%;
     }
-    
+
     .teams {
         flex-direction: column;
     }
@@ -303,19 +333,23 @@ main {
         padding: 0;
 
     }
-    .features{
+
+    .features {
         flex-direction: column;
     }
-    .features .features-img{
+
+    .features .features-img {
         position: static;
         margin: 0 auto;
         width: 90%;
     }
-    .features .features-img img{
+
+    .features .features-img img {
         width: 100%;
-        
+
     }
-    .features .features-btn{
+
+    .features .features-btn {
         padding: 20px 10px;
         font-size: 1.5rem;
         font-weight: 600;
@@ -324,9 +358,10 @@ main {
         left: 8px;
 
     }
+
     .features .features-text-description p {
         width: 96%;
         margin: 0 auto;
     }
-  
+
 }
