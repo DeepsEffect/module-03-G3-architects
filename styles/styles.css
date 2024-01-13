@@ -15,7 +15,7 @@
 
 .paragraph-primary {
     color: #424242;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 500;
     line-height: 26px;
 }
@@ -32,7 +32,8 @@
     padding: 10px;
     margin: 0 auto;
 }
-main{   
+
+main {
     width: 1440px;
     margin: 0 auto;
 }
@@ -99,22 +100,42 @@ main{
     margin-top: 50px;
     padding-bottom: 45px;
 }
+
 /* teams section styles */
-.teams{
+.teams {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.teams-imgs{
+
+.teams-imgs {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     margin-top: 50px;
     padding-left: 50px;
 }
-.teams-features{
-    padding: 76px;
+
+.teams-features {
+    padding: 76px ;
     text-align: left;
+}
+.teams-features * {
+    margin: 15px 0;
+}
+
+.teams-features .quick-list {
+    font-size: 2.8rem;
+
+}
+
+.teams-features .of-our {
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.teams-features .features {
+    color: #FF900E;
 }
 
 
@@ -134,17 +155,20 @@ main{
         font-size: 2.5rem;
         font-weight: 600;
     }
-    .banner-img img{
+
+    .banner-img img {
         width: 100%;
     }
 }
+
 /* tablet */
 @media screen and (min-width:576px) and (max-width:960px) {
-    .nav{
+    .nav {
         flex-direction: column;
         margin: 0;
     }
-    .banner-img img{
+
+    .banner-img img {
         width: 100%;
     }
 }
