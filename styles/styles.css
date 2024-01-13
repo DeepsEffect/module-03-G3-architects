@@ -117,9 +117,10 @@ main {
 }
 
 .teams-features {
-    padding: 76px ;
+    padding: 76px;
     text-align: left;
 }
+
 .teams-features * {
     margin: 15px 0;
 }
@@ -138,13 +139,53 @@ main {
     color: #FF900E;
 }
 
+/* features section styles */
+.features {
+    display: flex;
+    margin-top: 130px;
+}
+.features-texts .features-text-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+    margin-bottom: 24px;
+
+}
+
+.features .features-cards .card {
+    border-radius: 18px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 50px 40px;
+}
+
+.features .features-cards h3 {
+    color: #131313;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    /* padding: 0 20px; */
+}
+
+.features .features-cards p {
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+
+}
+
+.features .features-img {
+    margin-left: 146px;
+}
+
+
 
 /* media query */
 @media screen and (max-width: 576px) {
-    main{
+    main {
         width: 100%;
         /* margin: 0 auto; */
     }
+
     .nav {
         flex-direction: column;
         margin: 0;
@@ -166,31 +207,35 @@ main {
         padding: 0;
     }
 
-    .teams{
+    .teams {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .teams-imgs{
+
+    .teams-imgs {
         grid-template-columns: 1fr;
         padding: 20px 0;
         margin: 0;
     }
-    .teams-features{
+
+    .teams-features {
         padding: 0;
         margin: 0;
         width: 80%;
     }
-    .hide{
+
+    .hide {
         display: none;
     }
 }
 
 /* tablet */
 @media screen and (min-width:576px) and (max-width:960px) {
-    main{
+    main {
         width: 100%;
     }
+
     .nav {
         flex-direction: column;
         margin: 0;
@@ -199,16 +244,19 @@ main {
     .banner-img img {
         width: 100%;
     }
-    .teams{
+
+    .teams {
         flex-direction: column;
     }
-    .teams-features{
+
+    .teams-features {
         padding: 0;
         margin: 0;
         width: 80%;
     }
-    .teams-imgs{
+
+    .teams-imgs {
         padding: 0;
-        
+
     }
 }
